@@ -8,7 +8,7 @@ import Menu from '../Menu';
 
 const Cartem = () => {
 
-    const [locked, setlocked] = useState(true);
+    const [locked, setlocked] = useState(true); 
     const clickLock = () => {
         if(locked){
             setlocked(false);
